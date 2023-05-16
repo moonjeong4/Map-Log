@@ -525,17 +525,6 @@ class App {
     return validInputs && allPositive;
   }
 
-  // _getLocalTime(timezone) {
-  //   const options = {
-  //     timeZone: timezone,
-  //     hour: 'numeric',
-  //     minute: 'numeric',
-  //   };
-
-  //   const localTime = new Date().toLocaleTimeString([], options);
-  //   return localTime;
-  // }
-
   _reset() {
     if (!confirm('Are you sure you want to delete all?')) return;
     localStorage.removeItem('workouts');
