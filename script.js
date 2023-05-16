@@ -24,9 +24,9 @@ class Workout {
     const [date, time] = this._getLocalDate(timezone).split(',');
     const [month, day, year] = date.split('/');
 
-    this.description = `${this.type[0].toUpperCase()}${this.type.slice(
-      1
-    )} in ${city}, ${country} on ${months[month - 1]} ${day}, ${year} `;
+    this.description = `Traveling in ${city}, ${country} on ${
+      months[month - 1]
+    } ${day}, ${year} `;
     this.time = time;
   }
 
