@@ -51,6 +51,13 @@ a:visited {
   flex-direction: column;
 }
 
+@media (max-width: 1000px) {
+  .sidebar {
+    flex-basis: 38rem;
+    padding: 1rem;
+  }
+}
+
 .logo {
   height: 5.2rem;
   align-self: center;
